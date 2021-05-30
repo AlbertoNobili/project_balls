@@ -169,9 +169,9 @@ int		j;
 	textout_ex(screen, font, "dm", RBOX+50, FLEV+50, MCOL, BKG);
 	
 	for (j=0; j<nab; j++){
-		sprintf(s, "T%d:", i+1);
-		textout_ex(screen, font, s, RBOX + 15, 70 + i*10, MCOL, BKG);
-		show_dmiss(i);
+		sprintf(s, "T%d:", j+1);
+		textout_ex(screen, font, s, RBOX + 15, 70 + j*10, MCOL, BKG);
+		show_dmiss(j);
 	}
 }
 
